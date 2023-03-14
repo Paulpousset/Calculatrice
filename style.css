@@ -1,0 +1,145 @@
+/* Styles pour le corps de la page */
+body {
+    background-color: #2c0332;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.calculator {
+    max-width: 300px;
+    max-height: 300px;
+    
+    margin: 0 auto;
+    margin-top: 45px;
+    padding: 75px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+   
+    background-color: #eee5ef;
+    border-radius: 10px;
+  }
+  
+  .display {
+    grid-column: 1 / span 4;
+    height: 40px;
+    background-color: #5f3d87;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+    color: white;
+    width: auto;
+  }
+  
+  .btn {
+    background-color: #8d5eb7;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .btn.operator {
+    background-color: #d15508;
+  }
+  
+  .btn.equals {
+    background-color: #d15508;
+   
+    grid-row: 4 / span 2;
+  }
+  
+  .btn:nth-child(1) {
+    grid-row: 2;
+  }
+  
+  .btn:nth-child(2) {
+    grid-row: 2;
+  }
+  
+  .btn:nth-child(3) {
+    grid-row: 2;
+  }
+  
+  .btn:nth-child(4) {
+    grid-row: 2;
+  }
+  
+  .btn:nth-child(5) {
+    grid-row: 3;
+  }
+  
+  .btn:nth-child(6) {
+    grid-row: 3;
+  }
+  
+  .btn:nth-child(7) {
+    grid-row: 3;
+  }
+  
+  .btn:nth-child(8) {
+    grid-row: 3;
+  }
+  
+  .btn:nth-child(9) {
+    grid-row: 4;
+  }
+  
+  .btn:nth-child(10) {
+    grid-row: 4;
+  }
+  
+  .btn:nth-child(11) {
+    grid-row: 4;
+  }
+  
+  .btn:nth-child(12) {
+    grid-row: 4;
+  }
+  
+  .btn:nth-child(13) {
+    grid-row: 5;
+  }
+  
+  .btn:nth-child(14) {
+    grid-row: 5;
+  }
+  
+  .btn:nth-child(15) {
+    grid-row: 5;
+  }
+  
+  .btn:nth-child(16) {
+    grid-row: 5;
+  }
+  
+  .btn:nth-child(17) {
+    grid-column: 1 / span 2;
+  }
+  
+  .btn:nth-child(18) {
+    grid-column: 3;
+  }
+  
+  .btn:nth-child(19) {
+    grid-column: 4;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn:hover {
+    background-color: #e290ec;
+}
+  
+  .btn.operator:hover {
+    
+    background-color: #f4a967;
+
+  }
