@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled>
+        <button class="btn operator" onclick="calculator.addOperator('+')">+</button>
+        <button class="btn" onclick="calculator.deleteLast()">CE</button>
+        <button class="btn" onclick="calculator.clearDisplay()">C</button>
+        <button class="btn" onclick="calculator.addDigit('7')">7</button>
+        <button class="btn" onclick="calculator.addDigit('8')">8</button>
+        <button class="btn" onclick="calculator.addDigit('9')">9</button>
+        <button class="btn operator" onclick="calculator.addOperator('-')">-</button>
+        <button class="btn" onclick="calculator.addDigit('4')">4</button>
+        <button class="btn" onclick="calculator.addDigit('5')">5</button>
+        <button class="btn" onclick="calculator.addDigit('6')">6</button>
+        <button class="btn operator" onclick="calculator.addOperator('*')">*</button>
+        <button class="btn" onclick="calculator.addDigit('1')">1</button>
+        <button class="btn" onclick="calculator.addDigit('2')">2</button>
+        <button class="btn" onclick="calculator.addDigit('3')">3</button>
+        <button class="btn operator" onclick="calculator.addOperator('/')">/</button>
+        <button class="btn" onclick="calculator.addDigit('0')">0</button>
+        <button class="btn" onclick="calculator.addDecimal()">.</button>
+        <button class="btn equals" onclick="calculator.calculate()">=</button>
+        <button class="btn" onclick="calculator.undo()">Undo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
